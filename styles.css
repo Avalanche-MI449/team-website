@@ -8,6 +8,12 @@ h1
     text-align: center;
 }
 
+/* This will get rid of the float attribute on imgs so that we can go to the next bio */
+.clear-float
+{
+    clear: both;
+}
+
 /* ------------------ */
 /* NAV BAR COMPONENTS */
 /* ------------------ */
@@ -39,7 +45,7 @@ nav
 {
     display: flex;
     flex-wrap: wrap;
-    
+
     justify-content: center;
 }
 
@@ -53,4 +59,22 @@ nav
   border-style: solid;
   border-width: 5px;
   border-color: aqua;
+}
+/* ------------------------ */
+
+
+/* ------------------------ */
+/* MEET THE TEAM COMPONENTS */
+/* ------------------------ */
+
+.headshot
+{
+    margin: 5%;
+    margin-left: 10%;
+    margin-top: 0;
+
+    width: 15%;
+    height: auto;
+
+    float: left;
 }
