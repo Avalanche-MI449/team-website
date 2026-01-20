@@ -1,0 +1,56 @@
+body
+{
+    margin: 0;
+}
+
+h1
+{
+    text-align: center;
+}
+
+/* ------------------ */
+/* NAV BAR COMPONENTS */
+/* ------------------ */
+nav
+{
+    position: sticky;
+    top: 0;
+}
+
+.nav-container
+{
+    margin: 0;
+    padding: 1%;
+
+    justify-content: center;
+    color: #FFFFFF;
+    
+    display: flex;
+
+    background-color: rgba(0,0,0,0.75);
+}
+/* ------------------ */
+
+
+/* ------------------------ */
+/* PROJECTS LIST COMPONENTS */
+/* ------------------------ */
+.projects-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+}
+
+/* For each project icon */
+.projects-container div
+{
+  background-color: #f1f1f1;
+  margin: 5%;
+  padding: 8%;
+
+  border-style: solid;
+  border-width: 5px;
+  border-color: aqua;
+}
