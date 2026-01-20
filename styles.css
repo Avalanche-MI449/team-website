@@ -19,21 +19,21 @@ h1
 /* ------------------ */
 nav
 {
-    position: sticky;
+    /* position: sticky; */ 
     top: 0;
 }
 
 .nav-container
 {
     margin: 0;
-    padding: 1%;
+    padding: 5%; /* Change padding to make the nav bar bigger or smaller */
 
     justify-content: center;
     color: #FFFFFF;
     
     display: flex;
 
-    background-color: rgba(0,0,0,0.75);
+    background-color: #000000;
 }
 /* ------------------ */
 
@@ -52,9 +52,10 @@ nav
 /* For each project icon */
 .projects-container div
 {
-  background-color: #f1f1f1;
   margin: 5%;
   padding: 8%;
+
+  background-color: #f1f1f1;
 
   border-style: solid;
   border-width: 5px;
@@ -77,4 +78,9 @@ nav
     height: auto;
 
     float: left;
+}
+
+p
+{
+    padding-right: 10%;
 }
