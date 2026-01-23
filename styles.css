@@ -1,57 +1,59 @@
-body
-{
-    margin: 0;
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+  color: rgb(255, 255, 255);
+
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.08em;
 }
 
-h1
-{
-    text-align: center;
+h1 {
+  text-align: center;
 }
 
 /* This will get rid of the float attribute on imgs so that we can go to the next bio */
-.clear-float
-{
-    clear: both;
+.clear-float {
+  clear: both;
 }
 
 /* ------------------ */
 /* NAV BAR COMPONENTS */
 /* ------------------ */
-nav
-{
-    /* position: sticky; */ 
-    top: 0;
+nav {
+  /* position: sticky; */
+  top: 0;
 }
 
-.nav-container
-{
-    margin: 0;
-    padding: 5%; /* Change padding to make the nav bar bigger or smaller */
+.nav-container {
+  margin: 0;
 
-    justify-content: center;
-    color: #FFFFFF;
-    
-    display: flex;
+  justify-content: center;
+  color: #ffffff;
 
-    background-color: #000000;
+  display: flex;
+
+  background-color: #000000;
 }
+
+.nav-logo {
+    width: 20%;
+    height: auto;
+}
+
 /* ------------------ */
-
 
 /* ------------------------ */
 /* PROJECTS LIST COMPONENTS */
 /* ------------------------ */
-.projects-container
-{
-    display: flex;
-    flex-wrap: wrap;
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
 
-    justify-content: center;
+  justify-content: center;
 }
 
 /* For each project icon */
-.projects-container div
-{
+.projects-container div {
   margin: 5%;
   padding: 8%;
 
@@ -59,28 +61,31 @@ nav
 
   border-style: solid;
   border-width: 5px;
-  border-color: aqua;
+  border-color: #7393B2;
 }
 /* ------------------------ */
-
 
 /* ------------------------ */
 /* MEET THE TEAM COMPONENTS */
 /* ------------------------ */
 
-.headshot
-{
-    margin: 5%;
-    margin-left: 10%;
-    margin-top: 0;
+.headshot {
+  margin: 5%;
+  margin-left: 10%;
+  margin-top: 0;
 
-    width: 15%;
-    height: auto;
+  float: left;
 
-    float: left;
+  width: 16rem;
+  height: 16rem;
+  object-fit: cover;   /* crops instead of stretching */
+  object-position: center;
+
+  border-style: solid;
+  border-width: 5px;
+  border-color: #8fb3d9;
 }
 
-p
-{
-    padding-right: 10%;
+p {
+  padding-right: 10%;
 }
